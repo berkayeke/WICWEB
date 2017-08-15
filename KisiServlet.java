@@ -81,7 +81,7 @@ public class KisiServlet extends HttpServlet {
 		out.println("  <body>                                                                                                                 ");
 		out.println("    <div class=\"navbar navbar-default navbar-fixed-top\">                                                               ");
 		out.println("      <div class=\"container\">                                                                                          ");
-		out.println("<img src='C:\\Users\\Samsung\\Desktop\\Anadolu-Sigorta.png'   style='width:100px height:auto;'>   ");
+		out.println("<img src='http://sigortammax.com/wp-content/uploads/2015/08/Anadolu-Sigorta.png'   style='width:100px; height:auto;'>  ");
 		out.println("        <div class=\"navbar-header\">                                                                                    ");
 		out.println("          <a href=\"KisiServlet\" class=\"navbar-brand\">Anasayfa</a>                                                    ");
 		out.println("          <button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbar-main\">         ");
