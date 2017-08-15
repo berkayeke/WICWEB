@@ -27,7 +27,6 @@ public class AdresServlet extends HttpServlet {
 	 */
 	public AdresServlet() {
 		super();
-
 	}
 
 	/**
