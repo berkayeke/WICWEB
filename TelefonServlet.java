@@ -55,7 +55,7 @@ public class TelefonServlet extends HttpServlet {
 		out.println("  <body>                                                                                                             ");
 		out.println("    <div class=\"navbar navbar-default navbar-fixed-top\">                                                           ");
 		out.println("      <div class=\"container\">                                                                                      ");
-		out.println("<img src='C:\\Users\\Samsung\\Desktop\\Anadolu-Sigorta.png'   style='width:100px height:auto;'>   ");
+		out.println("<img src='http://sigortammax.com/wp-content/uploads/2015/08/Anadolu-Sigorta.png'   style='width:100px; height:auto;'>  ");
 		out.println("        <div class=\"navbar-header\">                                                                                ");
 		out.println("          <a href=\"KisiServlet\" class=\"navbar-brand\">Anasayfa</a>                                               ");
 		out.println("          <button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbar-main\">     ");
@@ -108,7 +108,7 @@ public class TelefonServlet extends HttpServlet {
 		out.println("                    <label for=\"select\" class=\"col-lg-2 control-label\" for=\"focusedInput\">Telefon Tipi</label> ");
 		out.println("                    <div class=\"col-lg-10\">                                                                         ");
 		out.println("                    <select class=\"form-control\" id=\"telTip\" name=\"telTip\">                                    ");
-		out.println("	<option>L¸tfen Secim Yapiniz!</option>");
+		out.println("	<option>L√ºtfen Secim Yapiniz!</option>");
 		out.println("                   <option>Ev</option>                                                                        		  ");
 		out.println("				   <option>Is</option>                                                                    	          ");
 		out.println("                   <option>Cep</option>                                                                              ");
@@ -119,8 +119,8 @@ public class TelefonServlet extends HttpServlet {
 		out.println("                    <label class=\"col-lg-2 control-label\" for=\"focusedInput\">Telefon Numarasi</label>                      ");
 		out.println("					<div class=\"col-lg-5\">                                                                          ");
 		out.println("                    <select class=\"form-control\" id=\"numara\" name=\"numara\">                                                    ");
-		out.println("<option>L¸tfen Secim Yapiniz!</option>");
-		// EV VE ›ﬁ TELEFONU NUMARALARI
+		out.println("<option>L√ºtfen Secim Yapiniz!</option>");
+		// EV VE √ù√û TELEFONU NUMARALARI
 		out.println("	<option>322</option>	<option>318</option>	<option>416</option>	<option>288</option>");
 		out.println("	<option>272</option>    <option>386</option>	<option>472</option>	<option>348</option>");
 		out.println("	<option>382</option>	<option>344</option>	<option>358</option>	<option>262</option>");
