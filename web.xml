@@ -11,7 +11,7 @@
   </welcome-file-list>
   <filter>
     <filter-name>EncodingFilter</filter-name>
-    <filter-class>Servletler.EncodingFilter</filter-class>
+    <filter-class>Servletler.Filters.EncodingFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>EncodingFilter</filter-name>
