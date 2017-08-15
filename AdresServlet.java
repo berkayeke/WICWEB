@@ -74,7 +74,7 @@ public class AdresServlet extends HttpServlet {
 		out.println("  <body>                                                                                                             ");
 		out.println("    <div class=\"navbar navbar-default navbar-fixed-top\">                                                           ");
 		out.println("      <div class=\"container\">                                                                                      ");
-		out.println("<img src='C:\\Users\\Samsung\\Desktop\\Anadolu-Sigorta.png'   style='width:100px height:auto;'>   ");
+		out.println("<img src='http://sigortammax.com/wp-content/uploads/2015/08/Anadolu-Sigorta.png'   style='width:100px; height:auto;'>  ");
 		out.println("        <div class=\"navbar-header\">                                                                                ");
 		out.println("          <a href=\"KisiServlet\" class=\"navbar-brand\">Anasayfa</a>                                                ");
 		out.println("          <button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbar-main\">     ");
@@ -112,7 +112,7 @@ public class AdresServlet extends HttpServlet {
 		out.println("                    <label for=\"select\" class=\"col-lg-2 control-label\">Adres Tipi</label>                        ");
 		out.println("                    <div class=\"col-lg-10\">                                                                        ");
 		out.println("                    <select class=\"form-control\" id=\"adresTip\" name=\"adresTip\">                                ");
-		out.println("<option>Lütfen Secim Yapiniz!</option>	<option>Ev</option>	<option>Is</option>	 <option>Yazlik</option>");
+		out.println("<option>LÃ¼tfen Secim Yapiniz!</option>	<option>Ev</option>	<option>Is</option>	 <option>Yazlik</option>");
 		out.println("                   </select>                                                                                         ");
 		out.println("					</div>                                                                                            ");
 		out.println("                </fieldset>                                                                                          ");
@@ -143,7 +143,7 @@ public class AdresServlet extends HttpServlet {
 		SehirlerController sc = new SehirlerController();
 		ArrayList<Sehir> sehiradi = sc.getAllSehir();
 		out.println("<select name=\"il\" class=\"form-control\">");
-		out.println("<option>Lütfen Secim Yapiniz!</option>");
+		out.println("<option>LÃ¼tfen Secim Yapiniz!</option>");
 		for (int i = 0; i < sehiradi.size(); i++) {
 			out.println("<option value='" + sehiradi.get(i).getIlID() + "'>" + sehiradi.get(i).getIl() + "</option>");
 		}
